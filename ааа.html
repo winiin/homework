@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<title>FINOVA — Бухгалтерские услуги</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#0f172a] text-gray-200">
+
+<!-- HEADER -->
+<header class="sticky top-0 bg-[#0f172a]/90 backdrop-blur shadow-lg">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-5">
+    <h1 class="text-2xl font-bold text-blue-500">FINOVA</h1>
+
+    <nav class="hidden md:flex gap-8">
+      <a href="#services" class="hover:text-blue-400">Услуги</a>
+      <a href="#about" class="hover:text-blue-400">О компании</a>
+      <a href="#contact" class="hover:text-blue-400">Контакты</a>
+    </nav>
+
+    <button class="md:hidden bg-blue-600 px-4 py-2 rounded">
+      Menu
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-center"
+style="background-image: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572');">
+
+  <div class="absolute inset-0 bg-black/70"></div>
+
+  <div class="relative z-10 max-w-3xl px-4">
+    <h2 class="text-4xl md:text-5xl font-bold mb-6">
+      Профессиональные бухгалтерские услуги
+    </h2>
+    <p class="text-gray-300 mb-8">
+      Надежное финансовое сопровождение бизнеса
+    </p>
+
+    <a href="#contact"
+       class="bg-blue-600 px-8 py-3 rounded-lg shadow-lg
+              hover:bg-blue-700 hover:-translate-y-1
+              active:scale-95
+              transition duration-300 inline-block">
+      Получить консультацию
+    </a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-20">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <h3 class="text-3xl font-bold mb-12 text-blue-400">Наши услуги</h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="bg-[#1e293b] p-8 rounded-xl shadow-lg hover:shadow-blue-500/20 transition">
+        <h4 class="text-lg font-semibold mb-4">Бухгалтерский аутсорсинг</h4>
+        <p class="text-gray-400">Полное ведение учета и отчетности.</p>
+      </div>
+
+      <div class="bg-[#1e293b] p-8 rounded-xl shadow-lg hover:shadow-blue-500/20 transition">
+        <h4 class="text-lg font-semibold mb-4">Налоговое сопровождение</h4>
+        <p class="text-gray-400">Оптимизация и сдача отчетов без штрафов.</p>
+      </div>
+
+      <div class="bg-[#1e293b] p-8 rounded-xl shadow-lg hover:shadow-blue-500/20 transition">
+        <h4 class="text-lg font-semibold mb-4">Финансовый аудит</h4>
+        <p class="text-gray-400">Контроль и анализ финансовых потоков.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 bg-[#1e293b]">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h3 class="text-3xl font-bold mb-6 text-blue-400">О компании FINOVA</h3>
+    <p class="text-gray-400 max-w-3xl mx-auto">
+      Мы предоставляем профессиональные бухгалтерские услуги для малого и среднего бизнеса.
+      Работаем с прозрачной системой учета и гарантируем конфиденциальность.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20">
+  <div class="max-w-xl mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-10 text-blue-400">
+      Связаться с нами
+    </h3>
+
+    <form class="flex flex-col gap-5">
+      <input type="text"
+             placeholder="Ваше имя"
+             required
+             class="p-3 rounded bg-[#1e293b] border border-blue-600
+                    focus:ring-2 focus:ring-blue-500 outline-none">
+
+      <input type="email"
+             placeholder="Email"
+             required
+             class="p-3 rounded bg-[#1e293b] border border-blue-600
+                    focus:ring-2 focus:ring-blue-500 outline-none invalid:border-red-500">
+
+      <button type="submit"
+        class="bg-blue-600 p-3 rounded-lg shadow-lg
+               hover:bg-blue-700
+               active:scale-95
+               focus:ring-4 focus:ring-blue-400
+               transition duration-300">
+        Отправить
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-center py-8 text-gray-400">
+  © 2026 FINOVA. Все права защищены.
+</footer>
+
+</body>
+</html>
